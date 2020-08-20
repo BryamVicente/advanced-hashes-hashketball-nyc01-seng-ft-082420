@@ -206,7 +206,7 @@ def big_shoe_rebounds
   game_hash.each do |home_away, data|
     data.each do |team, players|
       data[:players].each do |player|
-      if player[:shoe] == 18 || 19
+      if player[:shoe] == 19
          rebounds = player[:rebounds]
       end
   end
